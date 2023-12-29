@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: aquamarine;
+}
+
+
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size:40px;
+    font-weight: bolder;
+    padding: 40px 0px;
+    margin-bottom: 50px;
+    
+}
+
+.mainbody{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.score{
+    display: flex;
+    gap: 300px;
+    font-size: 35px;
+}
+
+.pscore{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.pscore p{
+    padding: 10px;
+}
+
+
+.cscore{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.cscore p{
+    padding: 10px;
+}
+
+
+.sym{
+    font-size: 60px;
+
+}
+
+
+#rock,#paper,#scissors{
+    font-size: 70px;
+    margin: 0px 60px;
+    border-radius: 1rem;
+    background-color: bisque;
+}
+
+#result{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+
+#PAbtn{
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding: 5px;
+}
